@@ -1,0 +1,107 @@
+.bungkus {
+    display: flex;
+    height: 100vh;
+}
+
+.pp {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.bList {
+    background-color: #fafcff;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: solid rgba(0, 0, 0, 0.219) 1px;
+}
+
+.bText {
+    display: flex;
+    flex-direction: column;
+}
+
+.textList {
+    height: 22px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masuk {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #116fe2;
+    color: white;
+    border-radius: 100%;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: solid rgba(0, 0, 0, 0.219) 1px;
+}
+
+.detailChat {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: solid rgba(0, 0, 0, 0.219) 1px;
+}
+
+.chatKiri {
+    display: flex;
+    justify-content: left;
+}
+
+.chatKanan {
+    display: flex;
+    justify-content: left;
+}
+
+.dilihat {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+}
+
+.detailPesan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
